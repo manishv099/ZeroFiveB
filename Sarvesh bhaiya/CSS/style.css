@@ -1,0 +1,71 @@
+/* Navbar styles */
+.navbar {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #333;
+}
+
+.navbar-nav li a {
+  color: #333;
+  font-size: 1.2rem;
+  padding: 1rem;
+}
+
+.navbar-right form {
+  display: flex;
+}
+
+.navbar-right form input[type="text"] {
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  border: none;
+  border-bottom: 2px solid #333;
+  font-size: 1rem;
+  color: #333;
+}
+
+.navbar-right form button {
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 2rem;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-right form button:hover {
+  background-color: #222;
+}
+
+/* Team section styles */
+.team-section {
+  padding: 4rem;
+  background-color: #f2f2f2;
+}
+
+.team-member {
+  text-align: center;
+}
+
+.team-member img {
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.team-member h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.team-member p {
+  color: #888;
+}
